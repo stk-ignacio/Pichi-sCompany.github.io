@@ -1,0 +1,350 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  * {
+   font-family: 'Montserrat', -apple-system, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+  body{
+      background-color: rgb(32, 32, 32);
+      margin: 0;
+      padding-top: 120px;
+  }
+  header{
+     height: 150px;
+     width: 100%;
+     display: grid;
+     grid-template-columns: 90px auto;
+     text-align: center;
+     align-items: center;
+     background-color: rgb(248, 213, 12);
+     color: white;
+     gap: 20px;
+     position: fixed;
+     top: 0;
+     border-bottom-left-radius: 15px;
+     border-bottom-right-radius: 15px;
+     gap: 150px;
+  }
+  footer{
+     background-color: rgb(255, 255, 255);
+     color: black;
+     padding: 20px;
+     margin: 90px 0px 0px 0px;
+     border-top:5px solid rgb(248, 213, 12) ;
+     display: grid;
+     grid-template-columns: auto;
+     grid-template-rows: auto auto;
+     justify-content: center;
+  }
+  main{
+     width: 100%;
+  }
+
+
+
+
+
+
+.footer-grl{
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 100px;
+   border-bottom: 2px solid rgb(248, 213, 12);
+}
+.redes ul{
+   list-style: none;
+   display: grid;
+   grid-template-columns: 50px 50px 50px;
+   gap: 15px;
+   justify-content: right;
+}
+.redes svg{
+   width: 25px;
+}
+.footer-pag{
+   width: auto;
+   justify-content: start;
+   display: grid;
+   grid-template-columns: 100px auto;
+  }
+.footer-pag img{
+   margin: 5px 5px auto 0px;
+   width: 140%;
+   padding-top: 20px;
+}
+footer p{
+   text-align:start;
+   display: flex;
+   justify-content: flex-start;
+   margin: 5px 0px 10px 0px;
+   font-family: 'Montserrat', -apple-system, sans-serif;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+  
+  
+  
+
+
+
+
+
+nav ul{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 10px;
+   list-style: none;
+   font-size: 20px;
+   margin-left: 100px;
+}
+.nombre-pagina{
+ align-items: center;
+ display: grid;
+ width: auto;
+}
+.nombre-pagina img{
+ margin: 5px 5px 10px 50px;
+ width: 160%;
+}
+nav li{
+  border-radius: 5px;
+  width: fit-content;
+  height: 50px;
+  text-align: center;
+  padding-top: 13px;
+  cursor: pointer;
+}
+nav li a{
+  transition: all 0.5s ease;
+  width: 300px;
+  height: 50px;
+  color: black;
+  font-weight: bold;
+}
+nav li a:hover{
+  transition: 0.5s ease;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 5px;
+}
+
+
+
+
+
+
+  p{
+     padding: 15px;
+  }
+  h1{
+     color: black;
+     padding: 20px;
+     margin:20px 0px;
+  }
+  a{
+      text-decoration: none;
+  }
+  
+  
+  
+  
+  .contain-all{
+   justify-content: center;
+   display: grid;
+  }
+  section{
+     margin-top: 70px;
+     background-color: rgb(248, 213, 12);
+     width: auto;
+     height: auto;
+     border-radius: 30px;
+  }
+  article{
+     background-color: rgb(37, 37, 37);
+     color: white;
+     padding: 15px;
+     display: grid;
+     grid-template-rows: 40px auto;
+     align-items: center;
+     height: auto;
+     border-radius: 10px;
+     width: 400px;
+  }
+  section div{
+     display: grid;
+     grid-template-columns: auto auto auto;
+     padding: 15px;
+     margin: 10px;
+     gap: 20px;
+     border-radius: 10px;
+  }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+   header{
+      height: 100px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto;
+      text-align: center;
+      align-items: center;
+      background-color: rgb(248, 213, 12);
+      color: white;
+      gap: 20px;
+      position: fixed;
+      top: 0;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+   }
+   .footer-grl{
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 100px;
+      border-bottom: 2px solid rgb(248, 213, 12);
+   }
+   .redes ul{
+      list-style: none;
+      display: grid;
+      grid-template-columns: 50px 50px 50px;
+      gap: 15px;
+      justify-content: right;
+   }
+   .redes svg{
+      width: 25px;
+   }
+   .footer-pag{
+      width: auto;
+      justify-content: start;
+      display: grid;
+      grid-template-columns: 100px auto;
+     }
+   .footer-pag img{
+      margin: 5px 5px auto 0px;
+      width: 140%;
+      padding-top: 20px;
+   }
+   footer p{
+      text-align:start;
+      display: flex;
+      justify-content: flex-start;
+      margin: 5px 0px 10px 0px;
+      font-family: 'Montserrat', -apple-system, sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+   }
+   
+     
+     
+     
+   
+   
+   
+   
+   
+   nav ul{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 10px;
+      list-style: none;
+      font-size: 15px;
+   }
+   .nombre-pagina{
+    align-items: center;
+    display: grid;
+    width: auto;
+   }
+   .nombre-pagina img{
+    margin: 5px 0px 10px 20px;
+    width: 180%;
+   }
+   nav li{
+     border-radius: 5px;
+     width: max-content;
+     height: 50px;
+     text-align: center;
+     padding-top: 13px;
+     cursor: pointer;
+   }
+   nav li a{
+     transition: all 0.5s ease;
+     width: 300px;
+     height: 50px;
+     color: black;
+     font-weight: bold;
+   }
+   nav li a:hover{
+     transition: 0.5s ease;
+     background-color: black;
+     color: white;
+     border-radius: 15px;
+     padding: 10px 5px;
+   }
+   
+   
+   
+   
+   
+   
+     p{
+        padding: 15px;
+     }
+     h1{
+        color: black;
+        padding: 20px;
+        margin:20px 0px;
+     }
+     a{
+         text-decoration: none;
+     }
+     
+     
+     
+     
+     .contain-all{
+      justify-content: center;
+      display: grid;
+     }
+     section{
+        margin-top: 70px;
+        background-color: rgb(248, 213, 12);
+        width: auto;
+        height: auto;
+        border-radius: 30px;
+     }
+     article{
+        background-color: rgb(37, 37, 37);
+        color: white;
+        padding: 15px;
+        display: grid;
+        grid-template-rows: 40px auto;
+        align-items: center;
+        height: auto;
+        border-radius: 10px;
+        width: 400px;
+     }
+     section div{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        padding: 15px;
+        margin: 10px;
+        gap: 20px;
+        border-radius: 10px;
+     }
+
+}
+
+
